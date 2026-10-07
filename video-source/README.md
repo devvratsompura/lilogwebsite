@@ -2,7 +2,8 @@
 
 A 31-second, 1920×1080 motion study for **PRAVAAH — Collection 01**, built as a
 Remotion composition inside [OpenMontage](https://github.com/calesthio/OpenMontage)'s
-`remotion-composer`. The rendered file is `assets/video/pravaah-sample.mp4`.
+`remotion-composer`. The rendered file is `assets/video/pravaah-sample.mp4`, with a poster frame at
+`assets/video/pravaah-sample-poster.jpg`.
 
 It is a capability sample, not the final brand film. It contains no product photography.
 Each piece is shown by its name, category, its line from the lookbook, and an abstract
