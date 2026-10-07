@@ -189,6 +189,13 @@ The site is branded **LI'L LOG OBJECTS**, with **PRAVAAH / Collection 01** as th
 first collection, matching the lookbook. The enquiry details on the contact page
 are the ones the lookbook publishes.
 
+## Sample film
+
+`assets/video/pravaah-sample.mp4` is a 31-second motion study of the collection: the title, the
+Pravaah statement, each piece with its lookbook line and an abstract line motif, then an end
+card. It was rendered with OpenMontage's Remotion composer and uses no product photography.
+The source and re-render steps are in [`video-source/`](video-source/README.md).
+
 ## Not wired up
 
 - The **enquiry form validates locally and confirms in place**; no mail server is
