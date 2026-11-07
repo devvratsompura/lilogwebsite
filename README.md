@@ -16,6 +16,13 @@ node serve.js
 
 Then open <http://localhost:4321>. Any other static server works equally well.
 
+Or double-click a start file, which starts the server and opens the film page in your browser:
+
+- **Windows:** `start-windows.bat` (needs [Node.js](https://nodejs.org))
+- **macOS / Linux:** `start-mac-linux.command` (uses Node.js, or Python if Node isn't installed)
+
+The sample film is at <http://localhost:4321/film.html>.
+
 ## Pages
 
 ```
