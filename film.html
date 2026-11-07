@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pravaah film — Li'l Log Objects</title>
+<meta name="description" content="A 31-second motion study for Pravaah, Collection 01.">
+<meta name="theme-color" content="#f2eee6">
+<style>
+  :root { --plaster: #f2eee6; --ink: #2b2621; --muted: #7a6f62; --timber: #9a6b43; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; background: var(--plaster); color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 32px 16px;
+  }
+  .kicker { font: 300 13px/1.4 system-ui, sans-serif; letter-spacing: .4em; text-transform: uppercase; color: var(--muted); margin: 0; }
+  h1 { font-weight: 400; font-size: clamp(36px, 6vw, 64px); margin: 10px 0 28px; }
+  video { width: min(100%, 1200px); aspect-ratio: 16 / 9; background: #e8e1d4; box-shadow: 0 20px 60px rgba(60, 45, 30, .15); }
+  p.note { font: 300 15px/1.6 system-ui, sans-serif; color: var(--muted); max-width: 60ch; text-align: center; margin: 24px 0 0; }
+  a { color: var(--timber); }
+</style>
+</head>
+<body>
+  <p class="kicker">Li'l Log Objects · Collection 01</p>
+  <h1>Pravaah — a motion study</h1>
+  <video src="assets/video/pravaah-sample.mp4" poster="assets/video/pravaah-sample-poster.jpg" controls playsinline preload="metadata"></video>
+  <p class="note">A 31-second sample made with OpenMontage. It shows each piece by name and line, with an abstract motif in place of photography. <a href="index.html">Back to the site</a></p>
+</body>
+</html>
